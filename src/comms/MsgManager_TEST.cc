@@ -20,7 +20,7 @@
 
 #include <unordered_map>
 
-#include "ignition/gazebo/comms/MsgManager.hh"
+#include "gz/sim/comms/MsgManager.hh"
 #include "helpers/EnvTestFixture.hh"
 
 using namespace ignition;

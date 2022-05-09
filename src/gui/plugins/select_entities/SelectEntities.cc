@@ -33,10 +33,10 @@
 #include <ignition/rendering/WireBox.hh>
 #include "ignition/rendering/Camera.hh"
 
-#include "ignition/gazebo/Entity.hh"
-#include "ignition/gazebo/gui/GuiEvents.hh"
-#include "ignition/gazebo/components/Name.hh"
-#include "ignition/gazebo/rendering/RenderUtil.hh"
+#include "gz/sim/Entity.hh"
+#include "gz/sim/gui/GuiEvents.hh"
+#include "gz/sim/components/Name.hh"
+#include "gz/sim/rendering/RenderUtil.hh"
 
 #include "SelectEntities.hh"
 

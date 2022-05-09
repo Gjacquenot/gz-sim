@@ -32,7 +32,7 @@
 #include <ignition/transport/Node.hh>
 #include <ignition/transport/Publisher.hh>
 
-#include <ignition/gazebo/Primitives.hh>
+#include <gz/sim/Primitives.hh>
 
 namespace ignition::gazebo
 {

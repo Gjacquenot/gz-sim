@@ -22,8 +22,8 @@
 #include <string>
 #include <unordered_set>
 
-#include <ignition/gazebo/config.hh>
-#include <ignition/gazebo/Export.hh>
+#include <gz/sim/config.hh>
+#include <gz/sim/Export.hh>
 #include <ignition/transport/Node.hh>
 
 #include "msgs/simulation_step.pb.h"
@@ -38,7 +38,7 @@ namespace ignition
     // Inline bracket to help doxygen filtering.
     inline namespace IGNITION_GAZEBO_VERSION_NAMESPACE {
     /// \class NetworkManagerSecondary NetworkManagerSecondary.hh
-    ///   ignition/gazebo/network/NetworkManagerSecondary.hh
+    ///   gz/sim/network/NetworkManagerSecondary.hh
     /// \brief Secondary specific behaviors
     class IGNITION_GAZEBO_VISIBLE NetworkManagerSecondary:
       public NetworkManager

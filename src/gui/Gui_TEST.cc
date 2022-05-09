@@ -25,8 +25,8 @@
 #include <ignition/transport/Node.hh>
 #include <ignition/utils/ExtraTestMacros.hh>
 
-#include "ignition/gazebo/gui/Gui.hh"
-#include "ignition/gazebo/test_config.hh"
+#include "gz/sim/gui/Gui.hh"
+#include "gz/sim/test_config.hh"
 
 #include "../../test/helpers/EnvTestFixture.hh"
 

@@ -22,7 +22,7 @@
 #include <vector>
 
 #include <ignition/transport/Node.hh>
-#include "ignition/gazebo/System.hh"
+#include "gz/sim/System.hh"
 
 namespace ignition
 {

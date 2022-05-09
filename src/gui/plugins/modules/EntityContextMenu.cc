@@ -26,7 +26,7 @@
 #include <string>
 
 #include <ignition/common/Console.hh>
-#include <ignition/gazebo/Conversions.hh>
+#include <gz/sim/Conversions.hh>
 #include <ignition/gui/Application.hh>
 #include <ignition/transport/Node.hh>
 
@@ -83,7 +83,7 @@ using namespace ignition;
 using namespace gazebo;
 
 /////////////////////////////////////////////////
-void IgnGazeboPlugin::registerTypes(const char *_uri)
+void GzSimPlugin::registerTypes(const char *_uri)
 {
   // Register our 'EntityContextMenuItem' in qml engine
   qmlRegisterType<ignition::gazebo::EntityContextMenu>(_uri, 1, 0,

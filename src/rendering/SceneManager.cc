@@ -59,9 +59,9 @@
 #include <ignition/rendering/Visual.hh>
 #include <ignition/rendering/WireBox.hh>
 
-#include "ignition/gazebo/Conversions.hh"
-#include "ignition/gazebo/Util.hh"
-#include "ignition/gazebo/rendering/SceneManager.hh"
+#include "gz/sim/Conversions.hh"
+#include "gz/sim/Util.hh"
+#include "gz/sim/rendering/SceneManager.hh"
 
 using namespace ignition;
 using namespace gazebo;

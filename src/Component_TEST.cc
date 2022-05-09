@@ -25,10 +25,10 @@
 #include <ignition/common/Console.hh>
 #include <ignition/math/Inertial.hh>
 
-#include "ignition/gazebo/components/Component.hh"
-#include "ignition/gazebo/components/Serialization.hh"
-#include "ignition/gazebo/components/Name.hh"
-#include "ignition/gazebo/EntityComponentManager.hh"
+#include "gz/sim/components/Component.hh"
+#include "gz/sim/components/Serialization.hh"
+#include "gz/sim/components/Name.hh"
+#include "gz/sim/EntityComponentManager.hh"
 
 #include "../test/helpers/EnvTestFixture.hh"
 

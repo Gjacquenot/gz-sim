@@ -20,7 +20,7 @@
 #include <cstdlib>
 #include <ignition/common/Console.hh>
 
-#include "ignition/gazebo/EntityComponentManager.hh"
+#include "gz/sim/EntityComponentManager.hh"
 #include "NetworkManager.hh"
 #include "NetworkManagerPrimary.hh"
 #include "NetworkManagerSecondary.hh"

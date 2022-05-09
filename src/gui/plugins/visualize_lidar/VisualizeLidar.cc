@@ -39,11 +39,11 @@
 #include <ignition/gui/GuiEvents.hh>
 #include <ignition/gui/MainWindow.hh>
 
-#include "ignition/gazebo/components/Name.hh"
-#include "ignition/gazebo/components/World.hh"
-#include "ignition/gazebo/EntityComponentManager.hh"
-#include "ignition/gazebo/Entity.hh"
-#include "ignition/gazebo/rendering/RenderUtil.hh"
+#include "gz/sim/components/Name.hh"
+#include "gz/sim/components/World.hh"
+#include "gz/sim/EntityComponentManager.hh"
+#include "gz/sim/Entity.hh"
+#include "gz/sim/rendering/RenderUtil.hh"
 
 #include "ignition/rendering/RenderTypes.hh"
 #include "ignition/rendering/RenderingIface.hh"
@@ -51,12 +51,12 @@
 #include "ignition/rendering/Scene.hh"
 #include "ignition/rendering/LidarVisual.hh"
 
-#include "ignition/gazebo/components/Link.hh"
-#include "ignition/gazebo/components/Sensor.hh"
-#include "ignition/gazebo/components/Model.hh"
-#include "ignition/gazebo/components/ParentEntity.hh"
-#include "ignition/gazebo/components/Pose.hh"
-#include "ignition/gazebo/Util.hh"
+#include "gz/sim/components/Link.hh"
+#include "gz/sim/components/Sensor.hh"
+#include "gz/sim/components/Model.hh"
+#include "gz/sim/components/ParentEntity.hh"
+#include "gz/sim/components/Pose.hh"
+#include "gz/sim/Util.hh"
 
 #include "ignition/msgs/laserscan.pb.h"
 

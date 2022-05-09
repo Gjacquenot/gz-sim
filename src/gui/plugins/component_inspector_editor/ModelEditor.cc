@@ -39,15 +39,15 @@
 #include <sdf/Sensor.hh>
 #include <sdf/parser.hh>
 
-#include "ignition/gazebo/components/Model.hh"
-#include "ignition/gazebo/components/Name.hh"
-#include "ignition/gazebo/components/ParentEntity.hh"
-#include "ignition/gazebo/components/Recreate.hh"
-#include "ignition/gazebo/EntityComponentManager.hh"
-#include "ignition/gazebo/SdfEntityCreator.hh"
+#include "gz/sim/components/Model.hh"
+#include "gz/sim/components/Name.hh"
+#include "gz/sim/components/ParentEntity.hh"
+#include "gz/sim/components/Recreate.hh"
+#include "gz/sim/EntityComponentManager.hh"
+#include "gz/sim/SdfEntityCreator.hh"
 
-#include "ignition/gazebo/gui/GuiEvents.hh"
-#include "ignition/gazebo/Util.hh"
+#include "gz/sim/gui/GuiEvents.hh"
+#include "gz/sim/Util.hh"
 
 #include "ModelEditor.hh"
 

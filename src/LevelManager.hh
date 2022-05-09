@@ -33,10 +33,10 @@
 #include <sdf/Geometry.hh>
 #include <ignition/transport/Node.hh>
 
-#include "ignition/gazebo/config.hh"
-#include "ignition/gazebo/Entity.hh"
-#include "ignition/gazebo/SdfEntityCreator.hh"
-#include "ignition/gazebo/Types.hh"
+#include "gz/sim/config.hh"
+#include "gz/sim/Entity.hh"
+#include "gz/sim/SdfEntityCreator.hh"
+#include "gz/sim/Types.hh"
 
 namespace ignition
 {

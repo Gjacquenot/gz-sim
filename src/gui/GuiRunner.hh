@@ -24,9 +24,9 @@
 
 #include <ignition/utils/ImplPtr.hh>
 
-#include "ignition/gazebo/config.hh"
-#include "ignition/gazebo/EventManager.hh"
-#include "ignition/gazebo/gui/Export.hh"
+#include "gz/sim/config.hh"
+#include "gz/sim/EventManager.hh"
+#include "gz/sim/gui/Export.hh"
 
 namespace ignition
 {

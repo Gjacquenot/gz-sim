@@ -21,8 +21,8 @@
 
 #include <ignition/utils/ImplPtr.hh>
 #include <sdf/Element.hh>
-#include "ignition/gazebo/comms/ICommsModel.hh"
-#include "ignition/gazebo/System.hh"
+#include "gz/sim/comms/ICommsModel.hh"
+#include "gz/sim/System.hh"
 
 namespace ignition
 {

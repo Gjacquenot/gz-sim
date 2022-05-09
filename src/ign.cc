@@ -28,11 +28,11 @@
 #include <ignition/fuel_tools/Result.hh>
 #include <ignition/fuel_tools/WorldIdentifier.hh>
 
-#include "ignition/gazebo/config.hh"
-#include "ignition/gazebo/Server.hh"
-#include "ignition/gazebo/ServerConfig.hh"
+#include "gz/sim/config.hh"
+#include "gz/sim/Server.hh"
+#include "gz/sim/ServerConfig.hh"
 
-#include "ignition/gazebo/gui/Gui.hh"
+#include "gz/sim/gui/Gui.hh"
 
 //////////////////////////////////////////////////
 extern "C" char *ignitionGazeboVersion()

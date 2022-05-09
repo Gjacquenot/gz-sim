@@ -21,7 +21,7 @@
 
 #include "ignition/common/Console.hh"
 #include "ignition/common/Util.hh"
-#include "ignition/gazebo/Events.hh"
+#include "gz/sim/Events.hh"
 
 #include "NetworkManager.hh"
 #include "NetworkManagerPrivate.hh"

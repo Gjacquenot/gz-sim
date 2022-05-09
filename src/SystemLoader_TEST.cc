@@ -21,10 +21,10 @@
 #include <sdf/World.hh>
 
 #include <ignition/common/Filesystem.hh>
-#include "ignition/gazebo/System.hh"
-#include "ignition/gazebo/SystemLoader.hh"
+#include "gz/sim/System.hh"
+#include "gz/sim/SystemLoader.hh"
 
-#include "ignition/gazebo/test_config.hh"  // NOLINT(build/include)
+#include "gz/sim/test_config.hh"  // NOLINT(build/include)
 
 using namespace ignition;
 

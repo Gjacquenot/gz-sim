@@ -35,8 +35,8 @@
 #include <ignition/rendering/Scene.hh>
 #include <ignition/transport/Node.hh>
 
-#include "ignition/gazebo/Entity.hh"
-#include "ignition/gazebo/gui/GuiEvents.hh"
+#include "gz/sim/Entity.hh"
+#include "gz/sim/gui/GuiEvents.hh"
 
 namespace ignition::gazebo
 {

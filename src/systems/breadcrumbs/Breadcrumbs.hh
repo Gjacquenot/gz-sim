@@ -31,9 +31,9 @@
 #include <ignition/transport/Node.hh>
 #include <ignition/math/Pose3.hh>
 
-#include "ignition/gazebo/Model.hh"
-#include "ignition/gazebo/SdfEntityCreator.hh"
-#include "ignition/gazebo/System.hh"
+#include "gz/sim/Model.hh"
+#include "gz/sim/SdfEntityCreator.hh"
+#include "gz/sim/System.hh"
 
 namespace ignition
 {

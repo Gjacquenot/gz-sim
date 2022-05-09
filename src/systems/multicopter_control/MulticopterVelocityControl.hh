@@ -23,9 +23,9 @@
 
 #include <ignition/transport/Node.hh>
 
-#include <ignition/gazebo/System.hh>
-#include "ignition/gazebo/Link.hh"
-#include "ignition/gazebo/Model.hh"
+#include <gz/sim/System.hh>
+#include "gz/sim/Link.hh"
+#include "gz/sim/Model.hh"
 
 #include "Common.hh"
 #include "LeeVelocityController.hh"

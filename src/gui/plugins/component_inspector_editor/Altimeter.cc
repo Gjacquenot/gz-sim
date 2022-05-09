@@ -17,7 +17,7 @@
 #include <sdf/Altimeter.hh>
 
 #include <ignition/common/Console.hh>
-#include <ignition/gazebo/components/Altimeter.hh>
+#include <gz/sim/components/Altimeter.hh>
 
 #include "Altimeter.hh"
 #include "ComponentInspectorEditor.hh"

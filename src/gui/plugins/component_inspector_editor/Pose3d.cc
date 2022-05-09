@@ -17,10 +17,10 @@
 #include <ignition/math/Pose3.hh>
 
 #include <ignition/common/Console.hh>
-#include <ignition/gazebo/Util.hh>
-#include "ignition/gazebo/components/Pose.hh"
-#include "ignition/gazebo/components/Recreate.hh"
-#include <ignition/gazebo/EntityComponentManager.hh>
+#include <gz/sim/Util.hh>
+#include "gz/sim/components/Pose.hh"
+#include "gz/sim/components/Recreate.hh"
+#include <gz/sim/EntityComponentManager.hh>
 
 #include "ComponentInspectorEditor.hh"
 #include "Pose3d.hh"

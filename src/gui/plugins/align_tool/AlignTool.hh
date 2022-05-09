@@ -20,7 +20,7 @@
 
 #include <memory>
 
-#include <ignition/gazebo/gui/GuiSystem.hh>
+#include <gz/sim/gui/GuiSystem.hh>
 #include <ignition/gui/Plugin.hh>
 #include <ignition/rendering/Node.hh>
 

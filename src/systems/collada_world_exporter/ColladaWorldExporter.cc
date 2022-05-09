@@ -20,19 +20,19 @@
 
 #include <ignition/plugin/Register.hh>
 
-#include <ignition/gazebo/components/Geometry.hh>
-#include <ignition/gazebo/components/Light.hh>
-#include <ignition/gazebo/components/Link.hh>
-#include <ignition/gazebo/components/Material.hh>
-#include <ignition/gazebo/components/Model.hh>
-#include <ignition/gazebo/components/Name.hh>
-#include <ignition/gazebo/components/ParentEntity.hh>
-#include <ignition/gazebo/components/Pose.hh>
-#include <ignition/gazebo/components/Transparency.hh>
-#include <ignition/gazebo/components/Visual.hh>
-#include <ignition/gazebo/components/World.hh>
-#include <ignition/gazebo/EntityComponentManager.hh>
-#include <ignition/gazebo/Util.hh>
+#include <gz/sim/components/Geometry.hh>
+#include <gz/sim/components/Light.hh>
+#include <gz/sim/components/Link.hh>
+#include <gz/sim/components/Material.hh>
+#include <gz/sim/components/Model.hh>
+#include <gz/sim/components/Name.hh>
+#include <gz/sim/components/ParentEntity.hh>
+#include <gz/sim/components/Pose.hh>
+#include <gz/sim/components/Transparency.hh>
+#include <gz/sim/components/Visual.hh>
+#include <gz/sim/components/World.hh>
+#include <gz/sim/EntityComponentManager.hh>
+#include <gz/sim/Util.hh>
 
 #include <sdf/Light.hh>
 #include <sdf/Mesh.hh>

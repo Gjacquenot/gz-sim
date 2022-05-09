@@ -40,7 +40,7 @@
 
 #include <ignition/msgs/Utility.hh>
 
-#include "ignition/gazebo/Conversions.hh"
+#include "gz/sim/Conversions.hh"
 
 using namespace ignition;
 using namespace gazebo;

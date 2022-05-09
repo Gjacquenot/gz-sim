@@ -31,15 +31,15 @@
 #include <ignition/utils/ExtraTestMacros.hh>
 #include <ignition/utils/SuppressWarning.hh>
 
-#include "ignition/gazebo/components/Joint.hh"
-#include "ignition/gazebo/components/JointAxis.hh"
-#include "ignition/gazebo/components/JointPosition.hh"
-#include "ignition/gazebo/components/JointType.hh"
-#include "ignition/gazebo/components/Model.hh"
-#include "ignition/gazebo/components/Name.hh"
-#include "ignition/gazebo/components/ParentEntity.hh"
-#include "ignition/gazebo/EntityComponentManager.hh"
-#include "ignition/gazebo/test_config.hh"
+#include "gz/sim/components/Joint.hh"
+#include "gz/sim/components/JointAxis.hh"
+#include "gz/sim/components/JointPosition.hh"
+#include "gz/sim/components/JointType.hh"
+#include "gz/sim/components/Model.hh"
+#include "gz/sim/components/Name.hh"
+#include "gz/sim/components/ParentEntity.hh"
+#include "gz/sim/EntityComponentManager.hh"
+#include "gz/sim/test_config.hh"
 #include "../../../../test/helpers/EnvTestFixture.hh"
 
 #include "../../GuiRunner.hh"

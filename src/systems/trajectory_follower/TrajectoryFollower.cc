@@ -32,11 +32,11 @@
 #include <ignition/transport/TopicUtils.hh>
 #include <sdf/sdf.hh>
 
-#include "ignition/gazebo/components/Pose.hh"
-#include "ignition/gazebo/components/AngularVelocityCmd.hh"
-#include "ignition/gazebo/Link.hh"
-#include "ignition/gazebo/Model.hh"
-#include "ignition/gazebo/Util.hh"
+#include "gz/sim/components/Pose.hh"
+#include "gz/sim/components/AngularVelocityCmd.hh"
+#include "gz/sim/Link.hh"
+#include "gz/sim/Model.hh"
+#include "gz/sim/Util.hh"
 
 #include "TrajectoryFollower.hh"
 

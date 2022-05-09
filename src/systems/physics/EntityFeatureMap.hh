@@ -27,7 +27,7 @@
 #include <ignition/physics/FeatureList.hh>
 #include <ignition/physics/RequestFeatures.hh>
 
-#include "ignition/gazebo/Entity.hh"
+#include "gz/sim/Entity.hh"
 
 namespace ignition::gazebo
 {

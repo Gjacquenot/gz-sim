@@ -69,9 +69,9 @@
 #include <algorithm>
 #include <string>
 
-#include "ignition/gazebo/Conversions.hh"
-#include "ignition/gazebo/Export.hh"
-#include "ignition/gazebo/Util.hh"
+#include "gz/sim/Conversions.hh"
+#include "gz/sim/Export.hh"
+#include "gz/sim/Util.hh"
 
 using namespace ignition;
 

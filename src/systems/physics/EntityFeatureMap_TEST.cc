@@ -32,7 +32,7 @@
 #include <ignition/utils/ExtraTestMacros.hh>
 
 #include "../../../test/helpers/EnvTestFixture.hh"
-#include "ignition/gazebo/EntityComponentManager.hh"
+#include "gz/sim/EntityComponentManager.hh"
 
 using namespace ignition;
 using namespace ignition::gazebo::systems::physics_system;

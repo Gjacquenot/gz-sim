@@ -17,8 +17,8 @@
 #include <sdf/AirPressure.hh>
 
 #include <ignition/common/Console.hh>
-#include <ignition/gazebo/components/AirPressureSensor.hh>
-#include <ignition/gazebo/EntityComponentManager.hh>
+#include <gz/sim/components/AirPressureSensor.hh>
+#include <gz/sim/EntityComponentManager.hh>
 
 #include "AirPressure.hh"
 #include "ComponentInspectorEditor.hh"

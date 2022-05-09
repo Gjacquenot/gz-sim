@@ -22,7 +22,7 @@
 
 #include <ignition/msgs.hh>
 
-#include "ignition/gazebo/gui/GuiSystem.hh"
+#include "gz/sim/gui/GuiSystem.hh"
 
 namespace ignition
 {

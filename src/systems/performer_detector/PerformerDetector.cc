@@ -26,14 +26,14 @@
 #include <sdf/Element.hh>
 #include <sdf/Geometry.hh>
 
-#include "ignition/gazebo/Model.hh"
-#include "ignition/gazebo/Util.hh"
-#include "ignition/gazebo/components/Geometry.hh"
-#include "ignition/gazebo/components/Model.hh"
-#include "ignition/gazebo/components/Name.hh"
-#include "ignition/gazebo/components/ParentEntity.hh"
-#include "ignition/gazebo/components/Performer.hh"
-#include "ignition/gazebo/components/Pose.hh"
+#include "gz/sim/Model.hh"
+#include "gz/sim/Util.hh"
+#include "gz/sim/components/Geometry.hh"
+#include "gz/sim/components/Model.hh"
+#include "gz/sim/components/Name.hh"
+#include "gz/sim/components/ParentEntity.hh"
+#include "gz/sim/components/Performer.hh"
+#include "gz/sim/components/Pose.hh"
 
 #include "PerformerDetector.hh"
 

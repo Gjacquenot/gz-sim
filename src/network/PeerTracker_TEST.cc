@@ -23,7 +23,7 @@
 #include <ignition/utils/ExtraTestMacros.hh>
 
 #include "PeerTracker.hh"
-#include "ignition/gazebo/EventManager.hh"
+#include "gz/sim/EventManager.hh"
 
 using namespace ignition::gazebo;
 

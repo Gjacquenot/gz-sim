@@ -28,14 +28,14 @@ namespace gazebo
 {
   class EntityContextMenuPrivate;
 
-  /// \brief IgnGazebo QML Plugin that registers C++ class so that they are
+  /// \brief GzSim QML Plugin that registers C++ class so that they are
   /// accessible from QML.
-  class IgnGazeboPlugin : public QQmlExtensionPlugin
+  class GzSimPlugin : public QQmlExtensionPlugin
   {
     Q_OBJECT
 
     // unique id
-    Q_PLUGIN_METADATA(IID "IgnGazebo/1.0")
+    Q_PLUGIN_METADATA(IID "GzSim/1.0")
 
     /// \brief Overrided function that registers C++ class as a QML type
     /// \param[in] _uri Plugin uri.

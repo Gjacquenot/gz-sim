@@ -22,8 +22,8 @@
 
 #include <ignition/transport/Node.hh>
 #include <ignition/utils/ImplPtr.hh>
-#include "ignition/gazebo/config.hh"
-#include "ignition/gazebo/comms/MsgManager.hh"
+#include "gz/sim/config.hh"
+#include "gz/sim/comms/MsgManager.hh"
 
 /// \brief Private MsgManager data class.
 class ignition::gazebo::comms::MsgManager::Implementation

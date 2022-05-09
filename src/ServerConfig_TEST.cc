@@ -18,9 +18,9 @@
 #include <gtest/gtest.h>
 
 #include <ignition/common/Console.hh>
-#include <ignition/gazebo/ServerConfig.hh>
-#include <ignition/gazebo/Util.hh>
-#include <ignition/gazebo/test_config.hh>
+#include <gz/sim/ServerConfig.hh>
+#include <gz/sim/Util.hh>
+#include <gz/sim/test_config.hh>
 
 using namespace ignition;
 using namespace gazebo;

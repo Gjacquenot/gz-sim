@@ -40,7 +40,7 @@
 
 #include <ignition/rendering/Camera.hh>
 
-#include <ignition/gazebo/gui/GuiSystem.hh>
+#include <gz/sim/gui/GuiSystem.hh>
 
 #include "ignition/gui/qt.h"
 

@@ -36,8 +36,8 @@
 #include <ignition/transport/Node.hh>
 #include <ignition/transport/Publisher.hh>
 
-#include "ignition/gazebo/EntityComponentManager.hh"
-#include "ignition/gazebo/components/LogPlaybackStatistics.hh"
+#include "gz/sim/EntityComponentManager.hh"
+#include "gz/sim/components/LogPlaybackStatistics.hh"
 
 namespace ignition::gazebo
 {

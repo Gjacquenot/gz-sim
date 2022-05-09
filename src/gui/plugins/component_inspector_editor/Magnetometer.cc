@@ -17,7 +17,7 @@
 #include <sdf/Magnetometer.hh>
 
 #include <ignition/common/Console.hh>
-#include <ignition/gazebo/components/Magnetometer.hh>
+#include <gz/sim/components/Magnetometer.hh>
 
 #include "ComponentInspectorEditor.hh"
 #include "Magnetometer.hh"

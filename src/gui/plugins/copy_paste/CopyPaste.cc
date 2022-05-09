@@ -26,8 +26,8 @@
 #include <ignition/plugin/Register.hh>
 #include <ignition/transport.hh>
 
-#include "ignition/gazebo/components/Name.hh"
-#include "ignition/gazebo/gui/GuiEvents.hh"
+#include "gz/sim/components/Name.hh"
+#include "gz/sim/gui/GuiEvents.hh"
 
 #include "CopyPaste.hh"
 

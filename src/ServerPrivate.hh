@@ -42,10 +42,10 @@
 
 #include <ignition/msgs/server_control.pb.h>
 
-#include "ignition/gazebo/config.hh"
-#include "ignition/gazebo/Export.hh"
-#include "ignition/gazebo/ServerConfig.hh"
-#include "ignition/gazebo/SystemLoader.hh"
+#include "gz/sim/config.hh"
+#include "gz/sim/Export.hh"
+#include "gz/sim/ServerConfig.hh"
+#include "gz/sim/SystemLoader.hh"
 
 using namespace std::chrono_literals;
 

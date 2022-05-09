@@ -19,9 +19,9 @@
 
 #include <ignition/common/Profiler.hh>
 #include <ignition/plugin/Register.hh>
-#include "ignition/gazebo/comms/Broker.hh"
-#include "ignition/gazebo/comms/MsgManager.hh"
-#include "ignition/gazebo/Util.hh"
+#include "gz/sim/comms/Broker.hh"
+#include "gz/sim/comms/MsgManager.hh"
+#include "gz/sim/Util.hh"
 #include "PerfectComms.hh"
 
 using namespace ignition;

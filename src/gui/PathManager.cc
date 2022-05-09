@@ -26,7 +26,7 @@
 #include <ignition/common/Profiler.hh>
 #include <ignition/gui/Application.hh>
 
-#include "ignition/gazebo/Util.hh"
+#include "gz/sim/Util.hh"
 
 using namespace ignition;
 using namespace gazebo;

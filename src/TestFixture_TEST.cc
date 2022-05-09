@@ -20,11 +20,11 @@
 #include <ignition/common/Console.hh>
 #include <ignition/common/Util.hh>
 
-#include "ignition/gazebo/components/Name.hh"
-#include "ignition/gazebo/ServerConfig.hh"
-#include "ignition/gazebo/test_config.hh"
+#include "gz/sim/components/Name.hh"
+#include "gz/sim/ServerConfig.hh"
+#include "gz/sim/test_config.hh"
 #include "../test/helpers/EnvTestFixture.hh"
-#include "ignition/gazebo/TestFixture.hh"
+#include "gz/sim/TestFixture.hh"
 
 using namespace ignition;
 using namespace gazebo;

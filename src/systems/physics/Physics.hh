@@ -48,8 +48,8 @@
 #include <ignition/physics/sdf/ConstructNestedModel.hh>
 #include <ignition/physics/sdf/ConstructWorld.hh>
 
-#include <ignition/gazebo/config.hh>
-#include <ignition/gazebo/System.hh>
+#include <gz/sim/config.hh>
+#include <gz/sim/System.hh>
 
 namespace ignition
 {
@@ -62,7 +62,7 @@ namespace systems
   // Forward declarations.
   class PhysicsPrivate;
 
-  /// \class Physics Physics.hh ignition/gazebo/systems/Physics.hh
+  /// \class Physics Physics.hh gz/sim/systems/Physics.hh
   /// \brief Base class for a System.
   /// Includes optional parameter : <include_entity_names>. When set
   /// to false, the name of colliding entities is not populated in

@@ -18,14 +18,14 @@
 #include <ignition/common/Profiler.hh>
 #include <ignition/plugin/Register.hh>
 
-#include <ignition/gazebo/components/Joint.hh>
-#include <ignition/gazebo/components/JointForceCmd.hh>
-#include <ignition/gazebo/components/JointPosition.hh>
-#include <ignition/gazebo/components/JointType.hh>
-#include <ignition/gazebo/components/JointVelocity.hh>
-#include <ignition/gazebo/components/Name.hh>
-#include <ignition/gazebo/components/ParentEntity.hh>
-#include <ignition/gazebo/Model.hh>
+#include <gz/sim/components/Joint.hh>
+#include <gz/sim/components/JointForceCmd.hh>
+#include <gz/sim/components/JointPosition.hh>
+#include <gz/sim/components/JointType.hh>
+#include <gz/sim/components/JointVelocity.hh>
+#include <gz/sim/components/Name.hh>
+#include <gz/sim/components/ParentEntity.hh>
+#include <gz/sim/Model.hh>
 
 #include <ignition/math/PID.hh>
 

@@ -24,7 +24,7 @@
 #include <string>
 #include <unordered_map>
 
-#include "ignition/gazebo/EntityComponentManager.hh"
+#include "gz/sim/EntityComponentManager.hh"
 
 namespace ignition
 {

@@ -24,14 +24,14 @@
 #include <ignition/msgs.hh>
 #include <ignition/transport/Node.hh>
 
-#include "ignition/gazebo/Events.hh"
-#include "ignition/gazebo/Conversions.hh"
+#include "gz/sim/Events.hh"
+#include "gz/sim/Conversions.hh"
 #include "ignition/common/Console.hh"
 #include "ignition/rendering/Marker.hh"
 #include "ignition/rendering/RenderingIface.hh"
 #include "ignition/rendering/Scene.hh"
 
-#include "ignition/gazebo/rendering/MarkerManager.hh"
+#include "gz/sim/rendering/MarkerManager.hh"
 
 using namespace ignition;
 using namespace gazebo;

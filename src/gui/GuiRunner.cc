@@ -29,12 +29,12 @@
 #include <ignition/transport/Node.hh>
 
 // Include all components so they have first-class support
-#include "ignition/gazebo/components/components.hh"
-#include "ignition/gazebo/Conversions.hh"
-#include "ignition/gazebo/EntityComponentManager.hh"
-#include <ignition/gazebo/gui/GuiEvents.hh>
-#include "ignition/gazebo/gui/GuiSystem.hh"
-#include "ignition/gazebo/SystemLoader.hh"
+#include "gz/sim/components/components.hh"
+#include "gz/sim/Conversions.hh"
+#include "gz/sim/EntityComponentManager.hh"
+#include <gz/sim/gui/GuiEvents.hh>
+#include "gz/sim/gui/GuiSystem.hh"
+#include "gz/sim/SystemLoader.hh"
 
 #include "GuiRunner.hh"
 

@@ -19,7 +19,7 @@
 #include <string>
 #include <unordered_set>
 
-#include <ignition/gazebo/SystemLoader.hh>
+#include <gz/sim/SystemLoader.hh>
 
 #include <sdf/Element.hh>
 
@@ -31,7 +31,7 @@
 
 #include <ignition/plugin/Loader.hh>
 
-#include <ignition/gazebo/config.hh>
+#include <gz/sim/config.hh>
 
 using namespace ignition::gazebo;
 
@@ -54,7 +54,7 @@ class ignition::gazebo::SystemLoaderPrivate
 
     std::string homePath;
     ignition::common::env(IGN_HOMEDIR, homePath);
-    systemPaths.AddPluginPaths(homePath + "/.ignition/gazebo/plugins");
+    systemPaths.AddPluginPaths(homePath + "/.gz/sim/plugins");
     systemPaths.AddPluginPaths(IGN_GAZEBO_PLUGIN_INSTALL_DIR);
 
     auto pathToLib = systemPaths.FindSharedLibrary(_filename);

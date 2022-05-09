@@ -20,7 +20,7 @@
 #include <ignition/gui/qt.h>
 #include <ignition/gui/Application.hh>
 #include <ignition/gui/PlottingInterface.hh>
-#include <ignition/gazebo/gui/GuiSystem.hh>
+#include <gz/sim/gui/GuiSystem.hh>
 #include <ignition/math/Vector3.hh>
 #include <ignition/math/Pose3.hh>
 #include <ignition/math/SphericalCoordinates.hh>

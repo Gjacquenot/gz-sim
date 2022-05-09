@@ -24,7 +24,7 @@
 
 #include <ignition/common/Battery.hh>
 
-#include "ignition/gazebo/System.hh"
+#include "gz/sim/System.hh"
 
 namespace ignition
 {

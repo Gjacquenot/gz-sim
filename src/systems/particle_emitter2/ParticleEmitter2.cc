@@ -28,11 +28,11 @@
 #include <ignition/plugin/Register.hh>
 #include <ignition/transport/Node.hh>
 
-#include <ignition/gazebo/components/Name.hh>
-#include <ignition/gazebo/components/ParentEntity.hh>
-#include <ignition/gazebo/components/ParticleEmitter.hh>
-#include <ignition/gazebo/components/Pose.hh>
-#include <ignition/gazebo/Util.hh>
+#include <gz/sim/components/Name.hh>
+#include <gz/sim/components/ParentEntity.hh>
+#include <gz/sim/components/ParticleEmitter.hh>
+#include <gz/sim/components/Pose.hh>
+#include <gz/sim/Util.hh>
 #include "ParticleEmitter2.hh"
 
 using namespace std::chrono_literals;
